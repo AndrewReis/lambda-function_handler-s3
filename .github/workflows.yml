@@ -24,5 +24,5 @@ jobs:
           zip_file: deployment.zip
           memory_size: 128
           timeout: 10
-          handler: handler
+          handler: handler.run
           runtime: nodejs22.x
